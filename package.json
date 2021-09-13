@@ -1,0 +1,30 @@
+{
+  "name": "sew-queen",
+  "version": "2.0.6",
+  "description": "Sew Queen project - a Whatsapp userbot helping to improve your Whatsapp experience.",
+  "main": "./Sew-Whatsapp/sew.js",
+  "scripts": {
+    "start": "supervisor -s sew.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RasithaLakshan/Sew-Whatsapp.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "sew",
+    "queen",
+    "sewqueen",
+    "bot"
+  ],
+  "author": "RasithaLakshan",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/RasithaLakshan/Sew-Whatsapp/issues"
+  },
+  "homepage": "https://github.com/RasithaLakshan/Sew-Whatsapp#readme",
+  "dependencies": {
+    "sewqueen-rs": "1.3.1"
+  }
+}
+
